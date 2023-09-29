@@ -1,0 +1,22 @@
+body {
+    background-color: #f0b836;
+    position: center;
+    text-align: center;
+  }
+
+.button1{
+    cursor: pointer;
+    border: none;
+    border-radius: 10%;
+    font-size: 12px;
+}
+
+.button1:hover {
+    background-color:#666;
+    color: white;
+  }
+  .button1:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
